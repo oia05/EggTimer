@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,9 +15,7 @@
 		ADF037F522D332A800A69E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF037F322D332A800A69E9A /* Main.storyboard */; };
 		ADF037F722D332AD00A69E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF037F622D332AD00A69E9A /* Assets.xcassets */; };
 		ADF037FA22D332AD00A69E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF037F822D332AD00A69E9A /* LaunchScreen.storyboard */; };
-		E5052ADF2ABCB86E00C77E3B /* EggHardness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5052ADE2ABCB86E00C77E3B /* EggHardness.swift */; };
-		E5052AE62ABD570400C77E3B /* timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5052AE42ABD570300C77E3B /* timer.mp3 */; };
-		E5052AE72ABD570400C77E3B /* finished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5052AE52ABD570300C77E3B /* finished.mp3 */; };
+		E5D6105C2CF239EE005DDF1F /* EggHardness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D6105B2CF239E9005DDF1F /* EggHardness.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +29,7 @@
 		ADF037F622D332AD00A69E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF037F922D332AD00A69E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADF037FB22D332AD00A69E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5052ADE2ABCB86E00C77E3B /* EggHardness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggHardness.swift; sourceTree = "<group>"; };
-		E5052AE42ABD570300C77E3B /* timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = timer.mp3; path = ../../../../../../../Downloads/timer.mp3; sourceTree = "<group>"; };
-		E5052AE52ABD570300C77E3B /* finished.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = finished.mp3; path = ../../../../../../../Downloads/finished.mp3; sourceTree = "<group>"; };
+		E5D6105B2CF239E9005DDF1F /* EggHardness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggHardness.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +63,7 @@
 		ADF037EC22D332A800A69E9A /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
-				E5052AE42ABD570300C77E3B /* timer.mp3 */,
-				E5052AE52ABD570300C77E3B /* finished.mp3 */,
+				E5D6105B2CF239E9005DDF1F /* EggHardness.swift */,
 				ADF037ED22D332A800A69E9A /* AppDelegate.swift */,
 				ADF037EF22D332A800A69E9A /* SceneDelegate.swift */,
 				ADF037F122D332A800A69E9A /* ViewController.swift */,
@@ -77,7 +72,6 @@
 				AD5C106522D36212001E14A5 /* alarm_sound.mp3 */,
 				ADF037F822D332AD00A69E9A /* LaunchScreen.storyboard */,
 				ADF037FB22D332AD00A69E9A /* Info.plist */,
-				E5052ADE2ABCB86E00C77E3B /* EggHardness.swift */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
@@ -143,10 +137,8 @@
 			files = (
 				ADF037FA22D332AD00A69E9A /* LaunchScreen.storyboard in Resources */,
 				AD5C106622D36212001E14A5 /* alarm_sound.mp3 in Resources */,
-				E5052AE72ABD570400C77E3B /* finished.mp3 in Resources */,
 				ADF037F722D332AD00A69E9A /* Assets.xcassets in Resources */,
 				AD5C106222D34E35001E14A5 /* README.md in Resources */,
-				E5052AE62ABD570400C77E3B /* timer.mp3 in Resources */,
 				ADF037F522D332A800A69E9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,7 +153,7 @@
 				ADF037F222D332A800A69E9A /* ViewController.swift in Sources */,
 				ADF037EE22D332A800A69E9A /* AppDelegate.swift in Sources */,
 				ADF037F022D332A800A69E9A /* SceneDelegate.swift in Sources */,
-				E5052ADF2ABCB86E00C77E3B /* EggHardness.swift in Sources */,
+				E5D6105C2CF239EE005DDF1F /* EggHardness.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

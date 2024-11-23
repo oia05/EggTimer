@@ -2,23 +2,20 @@
 //  EggHardness.swift
 //  EggTimer
 //
-//  Created by OmarAssidi on 21/09/2023.
-//  Copyright © 2023 The App Brewery. All rights reserved.
+//  Created by Omar Assidi on 23/11/2024.
+//  Copyright © 2024 The App Brewery. All rights reserved.
 //
 
-enum EggHardness: String {
-    case soft = "Soft"
-    case medium = "Medium"
-    case hard = "Hard"
+enum EggHardness: Float {
+    case soft = 10.0
+    case medium = 600.0
+    case hard = 900.0
     
-    func getRequiredTime() -> Int {
+    func getName() -> String {
         switch self {
-        case .soft:
-            return 5
-        case .medium:
-            return 420
-        case .hard:
-            return 720
+        case .soft: return "Soft"
+        case .medium: return "Medium"
+        case .hard: return "Hard"
         }
     }
 }
